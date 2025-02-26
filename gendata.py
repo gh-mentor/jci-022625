@@ -65,4 +65,18 @@ def plot_data(data):
     plt.grid()
     plt.show()
 
-    
+"""
+Create a function 'main' that generates data points and plots them.
+Arguments:
+- None
+Returns:
+- None
+"""
+
+def main():
+    data = gen_data_points((0, 100))
+    plot_data(data)
+
+# Call the main function
+if __name__ == '__main__':
+    main()
