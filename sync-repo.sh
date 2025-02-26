@@ -6,3 +6,18 @@
 # 3. pull changes from remote repository. 
 # 4. push changes to remote repository on branch 'main'.
 
+
+# Stage all changes
+git add .
+
+# Commit changes
+git commit -m "Updated"
+
+# Pull changes from the remote repository. This is a fetch and merge operation.
+git pull origin main
+
+# Push changes to the remote repository on branch 'main'
+git push origin main
+
+# Echo a message to the console
+echo "Changes synchronized successfully!"
